@@ -16,7 +16,7 @@ pipeline
 			
 			stage('Perform Regression Testing'){
 				steps{
-					bat 'C:\\Users\\biztalkdev\\AppData\\Roaming\\npm\\newman run D:\\newman\\WorldTime.postman_collection.json --disable-uicode'
+					bat 'C:\\Users\\biztalkdev\\AppData\\Roaming\\npm\\newman run D:\\newman\\WorldTime.postman_collection.json --disable-unicode'
 				}	
 			}
 		}
